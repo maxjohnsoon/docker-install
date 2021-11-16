@@ -10,3 +10,10 @@ sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io
 sudo usermod -aG docker maxjohnson
 ```
+```
+docker top openvas
+sudo apt-get install docker.io
+sudo service docker status
+sudo docker run -d -p 443:443 --name openvas mikesplain/openvas
+```
+<img width="1680" alt="Screen Shot 2021-11-16 at 5 11 11 PM" src="https://user-images.githubusercontent.com/42543469/142081128-e82c1292-bd08-4767-afde-80c2780113b4.png">
