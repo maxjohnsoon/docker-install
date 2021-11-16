@@ -19,7 +19,18 @@ sudo apt-get install docker.io
 sudo service docker status
 sudo docker run -d -p 443:443 --name openvas mikesplain/openvas
 ```
+### Openvas running on my Ubuntu Machine
 <img width="1680" alt="Screen Shot 2021-11-16 at 5 11 11 PM" src="https://user-images.githubusercontent.com/42543469/142081128-e82c1292-bd08-4767-afde-80c2780113b4.png">
+### docker-compose.yml
+```
+version: '3.3'
+services:
+    openvas:
+        ports:
+            - '443:443'
+        container_name: openvas
+        image: mikesplain/openvas
+```
 
 # Links Used
 https://github.com/mikesplain/openvas-docker
