@@ -1,5 +1,4 @@
-## OpenVAS/Greenbone Docker Install
-## Max Johnson
+## OpenVAS/Greenbone Docker Install - Max Johnson
 
 # Docker Install
 ```
